@@ -1,13 +1,13 @@
 .navbar {
   align-items: center;
-  background: #171729;
+  background: #101010;
   display: flex;
   justify-content: space-between;
   padding: 1rem clamp(1.25rem, 6vw, 4rem);
 }
 
 .navbar__logo {
-  color: #f04462;
+  color: #ffd83d;
   font-size: 1.1rem;
   font-weight: 700;
   text-decoration: none;
@@ -29,7 +29,7 @@
 
 .navbar__links a:hover,
 .navbar__links a:focus-visible {
-  color: #f04462;
+  color: #ffd83d;
 }
 
 @media (max-width: 480px) {
