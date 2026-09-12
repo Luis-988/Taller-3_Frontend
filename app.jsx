@@ -64,6 +64,11 @@ function App() {
           <small>estudiantes inscritos</small>
         </section>
       </main>
+      <footer className="footer">
+        <small>
+          © 2026 <span>ReactAcademy.</span> Taller 03 — React Fundamentos.
+        </small>
+      </footer>
     </>
   );
 }
