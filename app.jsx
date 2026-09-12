@@ -1,5 +1,12 @@
+import Navbar from './src/components/Navbar.jsx';
+
 function App() {
-  return null;
+  return (
+    <>
+      <Navbar />
+      <main id="inicio" />
+    </>
+  );
 }
 
-ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+export default App;
